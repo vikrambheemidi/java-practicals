@@ -1,0 +1,76 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form  action="http://localhost:8088/CandidateTask/ReadData" method="get" style="color:blue;">
+<h1 style="color:blue;font-style:Harlow Solid;">Customer form</h1>
+Customer Id: <input type="text" name="cid"  maxlength="4" required autofocus/><br><br>
+
+Customer name: <input type="text" name="cname" required/><br><br>
+
+
+<legend style="color:green"><b>Gender</b></legend>
+Female: <input type="radio"  name="rad1"/><br>
+Male: <input type="radio"  name="rad1"/><br>
+<br>
+
+Customer Age: <input type="text" name="age" /><br><br>
+
+Customer Address: <input type="text" name="addr" required /><br><br>
+
+
+City: 
+<select required name="1">
+  <option value="Hyderabad" >Hyderabad</option>
+  <option value="Dehli">Dehli</option>
+  <option value="Beijing" >Beijing</option>
+  <option value="Shanghai" >Shanghai</option>
+   <option value="London" >London</option>
+  <option value="Liverpool" >Liverpool</option>
+  <option value="Chicago" >Chicago</option>
+  <option value="Washington" >Washington</option>
+  <option value="Sydney" >Sydney</option>
+  <option value="Melbourne">Melbourne</option>
+</select>
+
+
+Country: 
+<select required name="2">
+  <option value="India">India</option>
+  <option value="China">China</option>
+  <option value="UK">UK</option>
+  <option value="USA">USA</option>
+   <option value="Australia">Australia</option>
+</select>
+
+Pin: <input type="text" name="pin" required/><br><br>
+
+Phone no: <input type="text" name="phn" required/><br><br>
+
+
+
+
+
+<legend style="color:green"><b>Hobbies</b></legend>
+Playing<input type="checkbox"  name="chk1"/><br>
+Reading<input type="checkbox"  name="chk2"/><br>
+Painting<input type="checkbox"  name="chk3"/><br>
+Photography<input type="checkbox"  name="chk4"/><br>
+Travelling<input type="checkbox"  name="chk5"/><br>
+<br>
+
+
+Customer DOB: <input type="text" name="dob"/><br><br>
+
+
+<input type="submit" value="Submit" style="color:red;font-size:15pt;"/>
+<input type="reset" value="Reset" style="color:red;font-size:15pt;"/>
+</form>
+
+</body>
+</html>
